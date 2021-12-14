@@ -59,9 +59,4 @@ touch $PROFILE_PATH
 
 echo 'export PATH="$PATH:${HOME}/vendor/ffmpeg"' >> $PROFILE_PATH
 
-echo $PATH:$BUILD_DIR/$VENDOR_DIR/ffmpeg
-export PATH=$PATH:$BUILD_DIR/$VENDOR_DIR/ffmpeg
-
-ffmpeg
-
 echo "Installation successful" | output
